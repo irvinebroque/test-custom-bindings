@@ -1,0 +1,14 @@
+{
+  "name": "test-custom-bindings",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "wrangler deploy --dry-run --config platform/wrangler.jsonc && wrangler deploy --dry-run --config dispatcher/wrangler.jsonc",
+    "deploy:platform": "wrangler deploy --config platform/wrangler.jsonc",
+    "deploy:dispatcher": "wrangler deploy --config dispatcher/wrangler.jsonc",
+    "upload:user": "node scripts/upload-user-worker.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.118.0"
+  }
+}

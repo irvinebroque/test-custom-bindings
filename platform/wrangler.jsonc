@@ -1,0 +1,16 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "custom-binding-platform-worker",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-15",
+  "d1_databases": [
+    {
+      "binding": "D1_FALLBACK",
+      "database_name": "custom-binding-demo-db",
+      "database_id": "8dcaa865-9e3b-447a-b718-9c4dee6f86e0"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}

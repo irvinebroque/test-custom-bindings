@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "custom-binding-dispatcher",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-15",
+  "dispatch_namespaces": [
+    {
+      "binding": "DISPATCHER",
+      "namespace": "custom-binding-ns"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
