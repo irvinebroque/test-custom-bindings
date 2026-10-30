@@ -9,6 +9,6 @@
     "upload:user": "node scripts/upload-user-worker.mjs"
   },
   "devDependencies": {
-    "wrangler": "^4.118.0"
+    "wrangler": "^4.156.0"
   }
 }
